@@ -1,0 +1,56 @@
+[
+    {
+      "id": "623e3adca3d9888fea4a9d2f",
+      "price": "$199",
+      "picture": "https://www.pexels.com/photo/a-close-up-shot-of-a-mirrorless-camera-7789062/",
+      "name": "Canon 1D"
+    },
+    {
+      "id": "623e3adcffc1d39ab601dd00",
+      "price": "$289",
+      "picture": "https://www.pexels.com/photo/black-canon-digital-camera-on-a-yellow-surface-7789065/",
+      "name": "Canon 2D"
+    },
+    {
+      "id": "623e3adc2bbb3ae2384bb29e",
+      "price": "$379",
+      "picture": "https://www.pexels.com/photo/a-close-up-shot-of-a-mirrorless-camera-7789066/",
+      "name": "Canon 3D"
+    },
+    {
+      "id": "623e3adced51b169305ff796",
+      "price": "$418",
+      "picture": "https://www.pexels.com/photo/a-black-canon-eos-camera-over-a-yellow-surface-7789070/",
+      "name": "Canon 4D"
+    },
+    {
+      "id": "623e3adcec89a8299d790e8e",
+      "price": "$529",
+      "picture": "https://www.pexels.com/photo/a-close-up-shot-of-a-mirrorless-camera-7789068/",
+      "name": "Canon 5D"
+    },
+    {
+      "id": "623e3adc61ba9abdebf88300",
+      "price": "$671",
+      "picture": "https://www.pexels.com/photo/a-close-up-shot-of-a-mirrorless-camera-7789073/",
+      "name": "Canon 6D"
+    },
+    {
+      "id": "623e3adc123cc2c6d2eec462",
+      "price": "$767",
+      "picture": "https://www.pexels.com/photo/black-canon-camera-over-a-yellow-surface-7789075/",
+      "name": "Canon 7D"
+    },
+    {
+      "id": "623e3adc123cc2c6d2bbc462",
+      "price": "$837",
+      "picture": "https://www.pexels.com/photo/a-close-up-shot-of-a-mirrorless-camera-7789076/",
+      "name": "Canon 8D"
+    },
+    {
+      "id": "623e3adc123cc2c6d2aac462",
+      "price": "$957",
+      "picture": "https://www.pexels.com/photo/a-branded-digital-camera-on-a-yellow-surface-7789210/",
+      "name": "Canon 9D"
+    }
+  ]
