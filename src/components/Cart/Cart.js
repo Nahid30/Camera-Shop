@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCamera } from '@fortawesome/free-solid-svg-icons'
+import { faCamera, faDeleteLeft } from '@fortawesome/free-solid-svg-icons'
 
 import React from 'react';
 import './Cart.css'
@@ -20,6 +20,7 @@ const Cart = (props) => {
                     key={product.id}
                 ></CartChildren>)
             }
+            <div className='button-section'>
             <button onClick={()=>randomItem()}>
                 <p>Choose One</p>
             </button>
@@ -27,6 +28,7 @@ const Cart = (props) => {
             <button onClick={()=>chooseAgain()}>
                 <p>Choose Again</p>
             </button>
+            </div>
         </div>
     );
 };
@@ -37,7 +39,7 @@ const CartChildren =({product})=>{
         <div className='cart-info'>
             <img src={img} alt="" />
             <h1>Name: {name}</h1>
-            <FontAwesomeIcon icon={faCamera}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faDeleteLeft}></FontAwesomeIcon>
             
         </div>
     )

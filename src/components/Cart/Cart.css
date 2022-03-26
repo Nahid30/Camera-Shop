@@ -9,6 +9,11 @@
     text-align: center;
     padding: 20px 0px;
 }
+.button-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .cart button{
    margin: 10px 0px;
    padding: 10px 30px;
