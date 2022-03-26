@@ -6,7 +6,7 @@ import './Cart.css'
 
 const Cart = (props) => {
 
-    const {cart, randomItem} = props;
+    const {cart, randomItem, chooseAgain} = props;
     
 
 
@@ -23,7 +23,8 @@ const Cart = (props) => {
             <button onClick={()=>randomItem()}>
                 <p>Choose One</p>
             </button>
-            <button>
+
+            <button onClick={()=>chooseAgain()}>
                 <p>Choose Again</p>
             </button>
         </div>

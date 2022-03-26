@@ -12,6 +12,9 @@ const Shop = () => {
         setCart([random])
     }
     
+    const chooseAgain =()=>{
+        setCart([])
+    }
 
     
     useEffect( ()=>{
@@ -43,7 +46,7 @@ const Shop = () => {
 
             <div className="cart-container">
                 
-                <Cart randomItem={randomItem} cart={cart}></Cart>
+                <Cart chooseAgain={chooseAgain} randomItem={randomItem} cart={cart}></Cart>
                 
 
                 
