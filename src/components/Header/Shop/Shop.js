@@ -8,9 +8,16 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
    
 
-    const randomItem =()=>{
-        const random = cart[Math.floor(Math.random() * cart.length)];
-        setCart([random])
+    const randomItem =(randomCart)=>{
+        if(cart.length){
+            const random = Math.floor(Math.random() * randomCart.length)
+            const selectCart = [randomCart[random]] 
+            setCart(selectCart)
+        }
+        else{
+            alert('Please Choose Any Product First')
+        }
+       
     }
     
     const chooseAgain =()=>{
@@ -65,8 +72,7 @@ const Shop = () => {
                 
                 <Cart chooseAgain={chooseAgain} randomItem={randomItem} cart={cart}></Cart>
                 
-
-                
+     
             </div>
 
         </div>

@@ -8,6 +8,7 @@ const Cart = (props) => {
 
     const {cart, randomItem, chooseAgain} = props;
     
+    
 
 
     
@@ -21,7 +22,7 @@ const Cart = (props) => {
                 ></CartChildren>)
             }
             <div className='button-section'>
-            <button onClick={()=>randomItem()}>
+            <button onClick={()=>randomItem(cart)}>
                 <p>Choose One</p>
             </button>
 
