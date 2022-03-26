@@ -25,10 +25,24 @@ const Shop = () => {
     } ,[])
 
     const handleAddToCart = (product) =>{
-        // console.log(product)
-        const newCart = [...cart, product]
-        setCart(newCart)
-    }
+        const useFind = cart.find(camera => 
+            camera.id === product.id);
+            if(!useFind){
+                if(cart.length<4){
+                    const newCart = [...cart, product]
+                setCart(newCart)
+                }
+                else{
+                    alert('You cannot added more than 4')
+                }
+            }
+            else{
+                alert("You cannot add the same item Twice")
+            }
+        }
+        
+        
+    
 
     return (
         
