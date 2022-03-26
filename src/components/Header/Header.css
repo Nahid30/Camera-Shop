@@ -1,0 +1,14 @@
+
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+}
+.nav-item a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #CC0000;
+    font-weight: 500;
+}
+.nav-item a:hover{
+    color: olivedrab;
+}
