@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Shop from './components/Header/Shop/Shop';
+import Question from './components/Question/Question';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Header></Header>
       <Shop></Shop>
+      <Question></Question>
     </div>
   );
 }
