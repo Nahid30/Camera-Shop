@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Camera-Shop
+My Project Link: [Camera-Shop](https://react-camera-assignment-nahid.netlify.app/).
 
 ## Available Scripts
 
