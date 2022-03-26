@@ -32,9 +32,10 @@ const Cart = (props) => {
 };
 
 const CartChildren =({product})=>{
-    const {name} =product;
+    const {name,img} =product;
     return(
         <div className='cart-info'>
+            <img src={img} alt="" />
             <h1>Name: {name}</h1>
             <FontAwesomeIcon icon={faCamera}></FontAwesomeIcon>
             

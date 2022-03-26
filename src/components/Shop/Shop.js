@@ -6,6 +6,7 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+   
 
     const randomItem =()=>{
         const random = cart[Math.floor(Math.random() * cart.length)];
@@ -41,6 +42,8 @@ const Shop = () => {
                     handleAddToCart ={handleAddToCart}
                     ></Product>)
                 }
+
+                
             </div>
 
 
