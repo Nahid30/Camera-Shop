@@ -1,9 +1,18 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../../Cart/Cart';
 import Product from '../../Product/Product';
 import './Shop.css';
 
 const Shop = () => {
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
+
+    const randomItem =()=>{
+        const random = cart[Math.floor(Math.random() * cart.length)];
+        setCart([random])
+    }
+    
+
     
     useEffect( ()=>{
         fetch('products.json')
@@ -12,7 +21,9 @@ const Shop = () => {
     } ,[])
 
     const handleAddToCart = (product) =>{
-        console.log(product)
+        // console.log(product)
+        const newCart = [...cart, product]
+        setCart(newCart)
     }
 
     return (
@@ -31,7 +42,11 @@ const Shop = () => {
 
 
             <div className="cart-container">
-                <h4>this is cart</h4>
+                
+                <Cart randomItem={randomItem} cart={cart}></Cart>
+                
+
+                
             </div>
 
         </div>
